@@ -9,6 +9,15 @@ export default function Main() {
   return (
     <Container>
       <Header />
+
+      <Content>
+        <Card>
+          <CardHeader></CardHeader>
+          <CardContent></CardContent>
+          <CardFooter></CardFooter>
+        </Card>
+      </Content>
+
       <Tabs />
     </Container>
   );
